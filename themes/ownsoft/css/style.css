@@ -1,0 +1,91 @@
+/*LOGO*/
+.main_logo{position: relative; width:372px ; height:100px ;}
+.main_logo a{position: absolute; width:340px ; height:100px ; background: url(../img/microsoft_logo.png) center center no-repeat; background-size: auto 60%;}
+.main_logo a:hover{background-color: #111;}
+
+/*MENU*/
+.main_nav{width: auto; margin-top: 30px;}
+.main_nav li{float: left;}
+.main_nav a{float: left; color: #747474; font-weight: 600; padding: 13px 18px;}
+.main_nav a:hover{text-decoration: underline;}
+
+/*DESTAQUE*/
+.main_txt-destaque{width: 45%; margin-top: 100px;}
+
+/*VIDEO*/
+.main_video { border: 2px solid #fff; border-bottom: 0 !important;}
+
+/*FOOTER*/
+.main_footer .title{font-size: 1em; font-weight: bold; text-transform: uppercase; margin-bottom: 12px; padding-bottom: 10px; border-bottom: 1px solid #737373;}
+.main_footer li{margin-bottom: 3px; padding: 3px 0;}
+.main_footer a{color: #f25022;}
+.main_footer a:hover{text-decoration: underline;}
+
+/*FOOTER PLAST*/
+.main_ead hr{margin-bottom: 15px; height: 2px; background-color: #737373; color: #737373;}
+.main_ead .plast{line-height:1.4;}
+
+/*TECNOLOGIAS*/
+.main_tec_item{padding: 15px 30px; margin-bottom: 30px; min-height: 380px;}
+.main_tec_item:hover{background:#FF7C6D ; color: #fff; box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.3); -webkit-box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.3); -mox-box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.3);}
+.main_tec_item img{padding: 25px; width: 80%; margin: 0 10%; margin-bottom: 20px; background: #eee; border-radius: 50%; -webkit-border-radius: 50%; -moz-border-radius: 50%;}
+.main_tec_item h1{font-size: 1.4em; margin-bottom: 15px;}
+
+/*RETOMADA DE CONTEÚDO*/
+.main_chamada{float: left; width: 80%; margin: 30px 10% 0 10%; font-size: 1.4em; font-weight: 300;}
+
+/*REVERSE NAV*/
+.reverse_nav{width: 100%; text-align: center;}
+.reverse_nav li{display: inline-block; padding: 15px; }
+.reverse_nav  a{color: #fff;}
+.reverse_nav  a:hover{text-decoration: underline;}
+
+/*SOBRE A EMPRESA*/
+.main_subj .title{font-size: 1.8em; font-weight: 300;}
+.main_subj ul{margin: 20px 0;}
+.main_subj li{margin-bottom: 10px;}
+.main_subj a{color: #CF4823;}
+.main_subj a:hover{text-decoration: underline;}
+
+.main_subj_person{margin: 30px 0 0;}
+.main_subj_person li{display: inline-block; margin: 0 30px 0 0; }
+.main_subj_person a{padding: 5px 15px; color: #333; background: #fff;}
+.main_subj_person a:hover{background-color:#f25022; color: #fff;}
+
+/*CONTATO REDES SOCIAIS*/
+.contato_info ul{margin-bottom: 30px;}
+.contato_info li{margin-bottom: 10px; font-size: 1.1em; }
+.contato_info a{color: #CF4823;}
+.contato_info p{font-size: 1.4em; font-weight: 300;}
+
+/*DESIGN RESPONSIVE - CODE*/
+@media only screen and (min-width: 1192px) and (max-width: 1240px){
+
+	/*.main_footer .item_footer{
+		font-size: 0.875em;
+	}
+*/
+
+	.main_txt-destaque { display: none;}
+	.main_video_div video { width: 100%;}
+
+	.main_footer .item_footer { display: none;}
+	.main_footer article { width: 45%;}
+	.main_ead p { margin-bottom: 23px;}
+}
+@media only screen and (max-width: 1192px) {
+
+	.main_txt-destaque { display: none;}
+	.main_video_div video { width: 100%;}
+
+	.main_footer .item_footer { display: none;}
+	.main_footer article { width: 45%;}
+	.main_ead p { margin-bottom: 23px;}
+
+	.main_logo { width: 310px; height: 90px;}
+	.main_logo a { width: 300px;}
+	.main_nav a { padding: 10px 10px;}
+}
+
+
+
